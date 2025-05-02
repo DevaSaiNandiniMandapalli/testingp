@@ -6,6 +6,7 @@ int main()
 	printf("Enter two values: ");
 	scanf("%d %d",&a,&b);//storing two values in a and b
 	int c=a+b;//adding a and b, and storing in c
+	printf("Addition of two Numbers");
 	printf("%d + %d = %d\n",a,b,c);
 	return 0;
 }
